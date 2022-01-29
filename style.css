@@ -505,20 +505,21 @@ main p {
     justify-content: center;
   }
   main {
-    padding: 1em;
+    padding: 1em 2em;
     margin-left: 0;
     margin-top: 15em;
+    text-align: left;
   }
   main h1 {
     font-size: 4rem;
+    padding-bottom: 0.25em;
   }
   main p {
     font-size: 1.25rem;
     line-height: 1.5;
   }
-  #home {
-    height: 80vh;
-  }
+ 
+  
   #home::before {
     background-position: top;
   }
@@ -534,6 +535,7 @@ main p {
   }
   .h-para {
     padding: 0 2em;
+    text-align: left;
   }
   #contact-div {
     width: 90%;
