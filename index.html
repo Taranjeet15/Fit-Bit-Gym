@@ -43,7 +43,7 @@
                 <button class="btn" id="home-join" type="button">JOIN NOW</button>
             </main>
         </div>
-        
+
     </section>
 
     <section id="features">
@@ -187,31 +187,50 @@
     <section id="contact">
         <h2 class="heading">Contact Us</h2>
         <!-- <div id="contact-div"> -->
-            <form id="contact-div" action="https://formsubmit.co/YourGymEmail@gmail.com" method="POST">
-                <!-- <label for="name">Name</label> -->
-                <input id="name" type="text" name="name" placeholder="Your Name" required>
-                <!-- <label for="email">Email</label> -->
-                <input id="email" type="email" name="email" id="email" placeholder="Your Email" required>
-                <!-- <label for="message">Message</label> -->
-                <textarea name="message" id="message" cols="40" rows="7" placeholder="Enter Your Message Here" required></textarea>
-                <button id="submit" class="btn mt-1" type="submit">Submit</button>
-            </form>
-            
+        <form id="contact-div" action="https://formsubmit.co/YourGymEmail@gmail.com" method="POST">
+            <!-- <label for="name">Name</label> -->
+            <input id="name" type="text" name="name" placeholder="Your Name" required>
+            <!-- <label for="email">Email</label> -->
+            <input id="email" type="email" name="email" id="email" placeholder="Your Email" required>
+            <!-- <label for="message">Message</label> -->
+            <textarea name="message" id="message" cols="40" rows="7" placeholder="Enter Your Message Here"
+                required></textarea>
+            <button id="submit" class="btn mt-1" type="submit">Submit</button>
+        </form>
+
         <!-- </div> -->
     </section>
     <!-- Later = Never
     do it now -->
     <section id="chatbot">
+
+        <img id="chat-icon" src="images/chatbot.svg" alt="">
         <p class="sub-heading">CHATBOT</p>
         <h2 class="heading">HAVE QUESTIONS? LIVE CHAT WITH US</h2>
         <p class="para h-para">
             You can ask questions like our gym plans, our programs, personal training, and free training.
         </p>
-        <iframe src='https://webchat.botframework.com/embed/fit-gym-bot-bot?s=qYCZkPg8MBM.MP1Yacw8ThFJeUCAiQbhkwCWDzQGs-HeJZDFFtqmlGI'  style='min-width: 300px; width: 100%; min-height: 400px;'></iframe>
+        <div id="bot">
+            <div id="bot-heading">
+                <p class="para h-para">
+                    Ask questions like pricing, programs, personal training, and free training.
+                </p>
+            </div>
+            <iframe
+                src='https://webchat.botframework.com/embed/fit-gym-bot-bot?s=qYCZkPg8MBM.MP1Yacw8ThFJeUCAiQbhkwCWDzQGs-HeJZDFFtqmlGI'
+                style="min-width: 300px;
+        min-height: 400px;"></iframe>
+        </div>
+        <iframe
+            src='https://webchat.botframework.com/embed/fit-gym-bot-bot?s=qYCZkPg8MBM.MP1Yacw8ThFJeUCAiQbhkwCWDzQGs-HeJZDFFtqmlGI'
+            style="min-width: 300px; width: 100%;
+    min-height: 400px;"></iframe>
     </section>
 
     <section id="footer">
+
         <p>&copy; Copyright All Rights Reserved</p>
+
     </section>
 </body>
 <script src="script.js"></script>

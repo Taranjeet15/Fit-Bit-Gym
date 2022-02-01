@@ -49,3 +49,16 @@ hamBurger.addEventListener('click', ()=>{
 navbar.classList.toggle("nav-transition");
 logo.classList.toggle("logo-transition");
 })
+
+//Chat-Bot
+
+let chatIcon=document.getElementById("chat-icon");
+let bot=document.getElementById("bot");
+chatIcon.addEventListener('click', ()=>{
+  if(bot.style.bottom==='5.5em'){
+  bot.style.bottom='-100%';
+  }
+  else{
+  bot.style.bottom='5.5em';
+  }
+  })
